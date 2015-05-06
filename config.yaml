@@ -1,0 +1,6 @@
+name: weihacker
+version: 1
+cron:
+- description: update_hacker_news
+  url: /updateHackerNews
+  schedule: "*/60 * * * *"
